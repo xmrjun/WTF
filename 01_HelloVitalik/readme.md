@@ -1,16 +1,16 @@
-ÕâÊÇ´óÀĞ  @0xAA_Science 
-ÎÒÓÃÀ´Ë¢lavaµÄ»ı·Ö 
-ĞèÒªnode  npm  ÎÒÔÚ ubuntu ÔËĞĞ
-²½Öè 1 : https://github.com/xmrjun/WTF
+è¿™æ˜¯å¤§ä½¬  @0xAA_Science 
+æˆ‘ç”¨æ¥åˆ·lavaçš„ç§¯åˆ† 
+éœ€è¦node  npm  æˆ‘åœ¨ ubuntu è¿è¡Œ
+æ­¥éª¤ 1 : git clone https://github.com/xmrjun/WTF
 cd  "/root/WTF/"
 
-°²×° npm install ethers --save 
+å®‰è£… npm install ethers --save 
 
-»»×Ô¼ºµÄ rpc ÎÄ¼şÎ»ÖÃÔÚ "/root/WTF/01_HelloVitalik/HelloVitalik.js"
+æ¢è‡ªå·±çš„ rpc æ–‡ä»¶ä½ç½®åœ¨ "/root/WTF/01_HelloVitalik/HelloVitalik.js"
 
-ÔËĞĞ node 01_HelloVitalik/HelloVitalik.js  
+è¿è¡Œ node 01_HelloVitalik/HelloVitalik.js  
 
-È»ºó 12 Ğ¡Ê±×Ô¶¯ÔËĞĞ 
+ç„¶å 12 å°æ—¶è‡ªåŠ¨è¿è¡Œ 
 cd
 sudo crontab -e
 
