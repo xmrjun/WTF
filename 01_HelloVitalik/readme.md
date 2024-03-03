@@ -13,6 +13,7 @@ cd  "/root/WTF/"
 
 然后 设置 12 小时自动运行 
 cd
+
 sudo crontab -e
 
 0 */12 * * * /usr/bin/node /root/WTF-Ethers/01_HelloVitalik/HelloVitalik.js >> /root/WTF-Ethers/01_HelloVitalik/HelloVitalik.log 2>&1
