@@ -1,16 +1,16 @@
-// å¯¼å…¥ethersåŒ…
+// µ¼Èëethers°ü
 import { ethers } from "ethers";
-// playcodeå…è´¹ç‰ˆä¸èƒ½å®‰è£…ethersï¼Œç”¨è¿™æ¡å‘½ä»¤ï¼Œéœ€è¦ä»ç½‘ç»œä¸ŠimportåŒ…ï¼ˆæŠŠä¸Šé¢è¿™è¡Œæ³¨é‡Šæ‰ï¼‰
+// playcodeÃâ·Ñ°æ²»ÄÜ°²×°ethers£¬ÓÃÕâÌõÃüÁî£¬ĞèÒª´ÓÍøÂçÉÏimport°ü£¨°ÑÉÏÃæÕâĞĞ×¢ÊÍµô£©
 // import { ethers } from "https://cdnjs.cloudflare.com/ajax/libs/ethers/6.2.3/ethers.js";
 
-// åˆ©ç”¨ethersé»˜è®¤çš„Providerè¿æ¥ä»¥å¤ªåŠç½‘ç»œ
+// ÀûÓÃethersÄ¬ÈÏµÄProviderÁ¬½ÓÒÔÌ«·»ÍøÂç
 // const provider = new ethers.getDefaultProvider();
-const ALCHEMY_MAINNET_URL = 'https://eth-mainnet.g.alchemy.com/v2/oKmOQKbneVkxgHZfibs-iFhIlIAl6HDN';
+const ALCHEMY_MAINNET_URL = 'https://eth1.lava.build/lava-referer-473578a9-29ac-44df-a4b9-af08031422c1/';
 const provider = new ethers.JsonRpcProvider(ALCHEMY_MAINNET_URL)
 
 const main = async () => {
-    // æŸ¥è¯¢vitalikçš„ETHä½™é¢
+    // ²éÑ¯vitalikµÄETHÓà¶î
     const balance = await provider.getBalance(`vitalik.eth`);
-    // å°†ä½™é¢è¾“å‡ºåœ¨console
+    // ½«Óà¶îÊä³öÔÚconsole
     console.log(`ETH Balance of vitalik: ${ethers.formatEther(balance)} ETH`);}
 main()
