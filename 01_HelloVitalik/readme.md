@@ -2,6 +2,7 @@
 我用来刷lava的积分 
 需要node  npm  我在 ubuntu 运行
 步骤 1 : git clone https://github.com/xmrjun/WTF
+
 cd  "/root/WTF/"
 
 安装 npm install ethers --save 
@@ -10,7 +11,7 @@ cd  "/root/WTF/"
 
 运行 node 01_HelloVitalik/HelloVitalik.js  
 
-然后 12 小时自动运行 
+然后 设置 12 小时自动运行 
 cd
 sudo crontab -e
 
