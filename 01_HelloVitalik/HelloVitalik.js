@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 
 // 利用ethers默认的Provider连接以太坊网络
 // const provider = new ethers.getDefaultProvider();
-const ALCHEMY_MAINNET_URL = 'https://eth1.lava.build/lava-referer-473578a9-29ac-44df-a4b9-af08031422c1/';
+const ALCHEMY_MAINNET_URL = 'https://eth1.lava.build/lava-referer-8267777a-b375-4207-982f-12200435cb53/';
 const provider = new ethers.JsonRpcProvider(ALCHEMY_MAINNET_URL)
 
 const main = async () => {
