@@ -17,6 +17,7 @@
 7： sudo crontab -e （看自己习惯用那个编辑器）
 
 8： 0 0 * * * /root/.nvm/versions/node/v21.6.2/bin/node /root/WTF/01_HelloVitalik/HelloVitalik.js >> /root/WTF/cron.log 2>&1
+8.1 ：0 * * * * /usr/bin/node /root/WTF-Ethers/01_HelloVitalik/HelloVitalik.js >> /root/WTF-Ethers/cron.log 2>&1
 
 9：sudo crontab -l
 
